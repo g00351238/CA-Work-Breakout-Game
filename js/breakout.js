@@ -3,7 +3,8 @@ var ctx = canvas.getContext("2d");
 
 ctx.beginPath();
 ctx.rect(20,40,100,50);
-ctx.fillStyle = "#FF0000";
+ctx.rect(370,260,100,50);
+ctx.fillStyle = "#FFFF00";
 ctx.fill();
 ctx.closePath();
 
