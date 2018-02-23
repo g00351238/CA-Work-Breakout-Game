@@ -4,7 +4,7 @@ var ctx = canvas.getContext("2d");
 
 //Set the starting point
 var x = canvas.width/2;
-var y = canvas.getContext("2d");
+var y = canvas.height-30;
 
 //Draw the ball
 function draw() {
@@ -16,3 +16,4 @@ function draw() {
 }
 
 setInterval(draw, 10);
+
